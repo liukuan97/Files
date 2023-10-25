@@ -1,6 +1,5 @@
 var doublePI = Math.PI * 2;
 
-            
             var canvas = document.createElement('canvas');  
   
             // 设置<canvas>元素的ID、宽度、高度、样式等属性  
@@ -15,7 +14,11 @@ var doublePI = Math.PI * 2;
   
             // 将<canvas>元素添加到文档中  
             document.body.appendChild(canvas);
+
             
+            var canvas = document.getElementById("canvas");
+            
+
             var ctx = canvas.getContext("2d");
             var cx,cy;
             var starCanvas;
