@@ -3,8 +3,6 @@ function dark() {
   var n, e, i, h, t = .05,
       universeCanvas = document.createElement("canvas");
   universeCanvas.id = "universe";
-  universeCanvas.width = 1920;
-  universeCanvas.height = 1080;
   universeCanvas.style = "position: fixed; top: 0px; left: 0px; z-index: -1;";
   document.body.appendChild(universeCanvas);
   var s = universeCanvas,
